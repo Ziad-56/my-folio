@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text_align{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* Common Css Ends here */
+
+/* navigation starts here */
+nav {
+    background-color: #02918b;
+  }
+  nav .logo {
+    width: 40%;
+  }
+  nav .menu {
+    width: 60%;
+  }
+  nav .menu ul {
+    text-align: right;
+  }
+  nav .menu ul li {
+    display: inline-block;
+  }
+  
+  nav .menu ul li a {
+    color: white;
+    padding: 26px 25px;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+/* navigation ends here */
+
+/* banner part starts here  */
+#banner {
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.34);
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+  }
+  
+  #banner .b_content {
+    width: 100%;
+  }
+  
+  #banner .row {
+    height: 728px;
+  }
+  
+  #banner .b_content h2 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  #banner .b_content h1 {
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+  }
+  
+  #banner .b_content p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #banner .b_content img {
+    margin: 50px 0;
+  }
+  #banner .b_content a {
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+ /* banner part ends here */
+
+  
+/* about part starts here  */
+#about{
+    padding: 95px 0;
+  }
+  
+  #about .introduction{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 0 145px;
+    line-height: 35px;
+    margin-bottom: 80px;
+  }
+  
+  .heading {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .heading span {
+    display: block;
+    font-weight: 400;
+    color: #7e8287;
+    font-size: 16px;
+  }
+  
+  .card {
+    width: 25%;
+    padding: 35px 0;
+    text-align: center;
+  }
+  
+  .card .icon {
+    color: #02918c;
+    font-size: 30px;
+  }
+  
+  .card h4 {
+    margin: 25px 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+  }
+  
+  .card p {
+    color: #7e8287;
+    font-size: 11px;
+    padding: 0 50px;
+    line-height: 22px;
+  }
+  
+  .button{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 43px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+/* about part ends here- */
+
+/* service part starts here */
+#service {
+  padding: 74px 0;
+  background-image: url(../images/serviceBG.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.s_content{
+  width: 50%;
+}
+
+.s_content .heading {
+  text-align: left;
+}
+
+.s_content .card {
+  width: 50%;
+  border: none;
+  text-align: left;
+}
+
+.s_content .card p {
+  padding-left: 0;
+}
+
+/* service part ends here */
+
+/* my work part starts here */
+#my_work{
+    padding: 70px 0;
+    height: 350px;
+  }
+  
+  #my_work .introduction{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 0 115px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+  
+  .another_heading {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .another_heading span {
+    display: block;
+    font-weight: 400;
+    color: #7e8287;
+    font-size: 16px;
+  }
+/* my work part ends here */
+
+/* work part two starts here */
+#work {
+    padding: 60px 0;
+  }
+  #work .work_card {
+    width: 25%;
+    position: relative;
+  }
+  
+  #work .work_card img {
+    display: block;
+    width: 100%;
+  }
+  
+  #work .work_card .overlay {
+    background-color: rgba(2, 145, 139, 0.85);
+    position: absolute;
+    inset: 20px;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    transform: scale(0);
+    transition: 0.8s;
+  }
+  
+  #work .work_card:hover .overlay {
+    transform: scale(1);
+  }
+  
+/* work part two ends here */
+
+/* contact part starts here  */
+  #contact {
+    padding: 65px 0;
+    background-color: #0a0a0b;
+    text-align: center;
+  }
+  
+  .form_input{
+    width: 500px;
+    margin: 0 auto 20px auto;
+  }
+  .form_input textarea,
+  .form_input input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .form_input textarea{
+    height: 150px;
+  }
+  
+  /* contact part ends here */
+  
